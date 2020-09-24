@@ -1,0 +1,49 @@
+.container-5 {
+    border: 1px solid black;
+    width: 75%;
+    margin: 0 auto; /*centering the div*/
+    text-align: center; /*centering content inside div*/
+}
+
+.flex-blackjack-row-1, .flex-blackjack-row-2, .flex-blackjack-row-3 {
+    display: flex; /*every item inside this class is a flex item*/
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    border:1px solid black;
+    padding:10px;
+}
+
+.flex-blackjack-row-1, .flex-blackjack-row-2{
+    background: url('../img/green-table.jpg') center;
+    color: white;
+}
+
+.flex-blackjack-row-1 div{
+    border:1px solid #000000;
+    padding:10px;
+    flex: 1;
+    height:350px;
+    text-align: center;
+}
+
+.flex-blackjack-row-1 img{
+    height: 25%;
+    padding:10px;
+}
+
+.flex-blackjack-row-2 button{
+    border:1px solid black;
+    padding:10px;
+}
+
+.flex-blackjack-row-2 div{
+    border:1px solid black;
+    padding:10px;
+}
+
+table,tr,th,td {
+    margin-top:10px;
+    padding:20px;
+    border:1px solid black;
+}
